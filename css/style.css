@@ -1,0 +1,283 @@
+/*Normalize css file*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/*End of normalize*/
+
+/*bases css page*/
+.main-header{
+	top:0;
+
+}
+
+body{
+
+	background-color: #edefed; 
+	top:0;
+}
+.wrapper{
+
+	max-width: 100%;
+
+	margin: 0 auto;
+	
+	
+}
+
+.container{
+
+	width: 90%;
+	margin: 0 auto;
+
+
+}
+
+.footer{
+
+	bottom: 0px;
+}
+
+
+/*/end bases css page*/
+
+
+/* ------ video ----- */
+.video-container{
+
+	width: 100%;
+	height: 900%;
+	position: absolute;
+	
+}
+video{
+
+	width: 100%;
+	z-index: -1;
+	opacity: 0.78;
+	position: absolute;
+
+}
+
+
+
+/* ------ end video ----- */
+
+.nav-link{
+
+	color:#fff;
+	margin-top:1em;
+	font-style: arial;
+}
+
+.hote{
+
+	border: 2px solid #fff;
+}
+
+.head-title{
+
+	font-weight: bold;
+	font-size: 1.5em;
+	font-style: arial;
+	margin-left: -1em;
+}
+
+.hote:hover{
+	background-color: #000;
+}
+
+.logo{
+	color:#fff;
+	margin-top:.9em;
+	font-weight: bold;
+}
+
+.head-container {
+
+	margin-top: 5em;
+	margin-bottom: 1em;
+	text-align: center;
+	color:#fff;
+	font-size: 3em;
+	font-weight: bold; 
+}
+.lead-container{
+		text-align: center;
+		color:#fff;
+		font-size: 1em;
+		font-weight: bold;
+		
+
+}
+
+.formdiv{
+
+	height: 5.3em;
+	max-width: 100%;
+	background-color: rgba(0,0,0, .6);
+	margin-top: 19em;
+	margin-left: 0em;
+	margin-bottom: 3em;
+}
+
+
+
+
+.cols1{
+
+	height: 232.433px;
+	width: 760px;
+} 
+
+.cols23{
+
+	height: 232.433px;
+}
+
+
+h2{
+
+	font-size: 1.7em;
+	font-weight:bold;
+	font-family:arial, Helvetica, serif;
+	margin-top: .7em;
+	margin-bottom: .7em;
+	text-align: left;
+	letter-spacing: 0.5
+	line-height: 1.1;
+}
+
+.description {
+	font-size: 1.7em;
+	font-weight:bold;
+	font-family:arial, Helvetica, serif;
+	margin-top: .7em;
+	margin-bottom: .7em;
+	text-align: center;
+	letter-spacing: 0.5
+	line-height: 1.1;
+
+
+}
+
+p{
+	font-size: 1.1em;
+	font-family: arial, Helvetica, serif;
+	line-height: 1.2;
+	margin-bottom: 1em;
+	text-align: left;
+	letter-spacing: 0.5;
+	
+
+}
+
+.paradescription {
+	font-size: 1.1em;
+	font-family: arial, Helvetica, serif;
+	line-height: 1.2;
+	margin-bottom: 2em;
+	text-align: center;
+	letter-spacing: 0.5;
+
+}
+
+.btn-block{
+
+	display: block;
+	width: 60%;
+	white-space: normal;
+	border-color: #007a87;
+    border-bottom-color: #004f58;
+    background-color: #007a87;
+    color: #fff;
+    font-family: arial;
+}
+
+.btn-block1 {
+
+	display: block;
+	width: 30%;
+	white-space: normal;
+	border-color: #c4c4c4;
+    text-align: center;
+    color: #484848;
+    font-family: arial;
+    font-size: 1em;
+    font-weight: bold;
+    margin-left: 25em;
+
+}
+
+
+.jumbotron {
+
+	margin-top: 5em;
+	margin-bottom: 1em;
+	text-align: center;
+	color:#fff;
+	font-size: 2em;
+	font-weight: bold; 
+	z-index:100;
+}
+.inpara{
+		text-align: center;
+		color:#fff;
+		font-size: 1.2em;
+		font-weight: bold;
+		font-family: arial;
+}
+
+.jumbotron{
+	margin-top:0em;
+	margin-bottom: 1em;
+	text-align: center;
+	color:#fff;
+	font-size: 2em;
+	font-weight: bold; 
+	z-index:100;
+
+}
+
+
