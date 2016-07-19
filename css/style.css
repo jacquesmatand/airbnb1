@@ -104,6 +104,7 @@ video{
 
 /* ------ end video ----- */
 
+/*  ##########  dispostion navbar ###  */
 .nav-link{
 
 	color:#fff;
@@ -159,19 +160,21 @@ video{
 
 }
 
+/* ######    list bottom header  ###### */
 .formdiv{
 
 	height: 5.3em;
 	max-width: 100%;
 	background-color: rgba(0,0,0, .6);
-	margin-top: 19em;
+	margin-top: 14.2em;
 	margin-left: 0em;
 	margin-bottom: 3em;
 }
 
 
+/* ######    /list bottom header  ###### */
 
-
+/* ######    col- all image  ###### */
 .cols1{
 
 	height: 232.433px;
@@ -182,7 +185,7 @@ video{
 
 	height: 320px;
 }
-
+/* ######    /col- all image  ###### */
 
 h2{
 
@@ -355,6 +358,33 @@ p{
 	font-family: arial;
 }
 
+.nasima{
+
+	z-index: 20px;
+	margin-top: -5em;
+	color:#fff;
+	text-align: center;
+	font-size: 2em;
+	font-family: arial;
+}
+
+.tfooter {
+
+	color:#fff;
+	text-align: center;
+	font-size: .9em;
+}
+
+.kitoko{
+
+	font-size: 2em;
+	color:#fff;
+	font-family: arial;
+	text-align: center;
+	margin-bottom: .6em;
+	margin-top: -5em;
+}
+
 /* ######### footer #########  */
 
 .footer{
@@ -395,15 +425,22 @@ p{
 	display: inline;
 	border-radius: 100%;
 	color:#fff;
-	
 	text-align: center;
-	margin-left:2em;
-	margin-bottom: 20em;
+	
+	
 
 }
 
-.fa {
-	text-align: center;
+.fa li{
+	text-align: center ! important;
+	padding-left: auto ! important;
+	
+}
+
+i {
+	width: 1em;
+	
+
 }
 
 .sosoli {
@@ -422,6 +459,8 @@ p{
 	text-align: center;
 }
 
+
+
 .ozui li:hover{
 	color: blue;
 }
@@ -429,35 +468,17 @@ p{
 .ozui li {
 	font-size: 1.2em;
 	border: 1px solid #fff;
-	padding:.5em;
+	padding:.6em;
+	margin-left: 2em;
+	border-radius: 100%;
 
 }
 
-.nasima{
+.apropos:hover{
 
-	z-index: 20px;
-	margin-top: -5em;
-	color:#fff;
-	text-align: center;
-	font-size: 2em;
-	font-family: arial;
-}
-
-.tfooter {
-
-	color:#fff;
-	text-align: center;
-	font-size: .9em;
-}
-
-.kitoko{
-
-	font-size: 2em;
-	color:#fff;
-	font-family: arial;
-	text-align: center;
-	margin-bottom: .6em;
-	margin-top: -5em;
+	
+	color:#858586;
+	
 }
 
 /* ############  /footer ######### */
